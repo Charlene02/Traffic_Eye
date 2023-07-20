@@ -1,0 +1,46 @@
+<ion-app>
+  <ion-menu menuId="main-menu" content-id="main">
+    <ion-header>
+      <ion-toolbar color="success">
+        <ion-title>TDRO</ion-title>
+      </ion-toolbar>
+    </ion-header>
+    <ion-content>
+
+      <ion-list class="menu-items" lines="none">
+        <ion-menu-toggle>
+          <ion-item routerLink="/dashboard">
+            <ion-icon name="grid"></ion-icon>
+            <ion-label>Dashboard</ion-label>
+          </ion-item>
+        </ion-menu-toggle>
+        <ion-menu-toggle>
+          <ion-item routerLink="/violation">
+            <ion-icon name="warning"></ion-icon>
+            <ion-label>Violation</ion-label>
+          </ion-item>
+        </ion-menu-toggle>
+        <ion-menu-toggle>
+          <ion-item routerLink="/record">
+            <ion-icon name="create"></ion-icon>
+            <ion-label>Record</ion-label>
+          </ion-item>
+        </ion-menu-toggle>
+        <ion-menu-toggle>
+          <ion-item routerLink="/status">
+            <ion-icon name="stats-chart"></ion-icon>
+            <ion-label>Status</ion-label>
+          </ion-item>
+        </ion-menu-toggle>
+        <ion-menu-toggle>
+          <ion-item style="margin-top:300px" routerLink="/home">
+            <ion-icon name="log-out-outline"></ion-icon>
+            <ion-label>Log Out</ion-label>
+          </ion-item>
+        </ion-menu-toggle>
+      </ion-list>
+    </ion-content>
+  </ion-menu>
+  <ion-router-outlet id="main"></ion-router-outlet>
+</ion-app>
+

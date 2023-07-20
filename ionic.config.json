@@ -1,0 +1,7 @@
+{
+  "name": "mabile-app",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}

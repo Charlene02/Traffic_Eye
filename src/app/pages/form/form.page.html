@@ -1,0 +1,60 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Violation Form</ion-title>
+    <ion-buttons slot="start">
+      <ion-back-button default-href="#" routerLink="/dashboard"></ion-back-button>
+    </ion-buttons>
+  </ion-toolbar>
+  </ion-header>
+
+  <ion-content color="light">
+    <ion-list [inset]="true">
+      <ion-list-header>
+        <ion-label>Create New Records</ion-label>
+        <ion-button></ion-button>
+      </ion-list-header>
+      <ion-item>
+        <ion-input type="text" placeholder="Firstname"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-input type="text" placeholder="Lastname"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-input type="text" placeholder="Address"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-input type="text" placeholder="License Number"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-input label="Plate Number" labelPlacement="floating" placeholder="Enter text"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-input label="Type of Vehicle" labelPlacement="floating" placeholder="Enter text"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-input label="Date of Violation" labelPlacement="floating" placeholder="Enter text"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-input label="Place of Violation" labelPlacement="floating" placeholder="Enter text"></ion-input>
+      </ion-item>
+      <ion-item>
+        <ion-select label="Type of Violation" label-placement="stacked">
+          <ion-select-option value="Illegal Parking">Illegal Parking</ion-select-option>
+          <ion-select-option value="No Driver's Licence">No Driver's Licence</ion-select-option>
+          <ion-select-option value="Expired Driver's License">Expired Driver's License</ion-select-option>
+          <ion-select-option value="Fake Driver's License">Illegal Parking</ion-select-option>
+          <ion-select-option value="Illegal Terminal">Illegal Parking</ion-select-option>
+          <ion-select-option value="Reckless Driving">Illegal Parking</ion-select-option>
+          <ion-select-option value="No Franchise">Illegal Parking</ion-select-option>
+        </ion-select>
+      </ion-item>
+      <ion-item>
+        <ion-input label="Amount" labelPlacement="floating" placeholder="Enter text"></ion-input>
+      </ion-item>
+        <ion-button expand="block">Save</ion-button>
+    </ion-list>
+  </ion-content>
+
+  
+      
+   

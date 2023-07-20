@@ -1,0 +1,24 @@
+<ion-content>
+  <div id="header">
+      <div id="app-bar">
+          <ion-icon name="arrow back" routerlink="/dashboard"></ion-icon>
+      </div>
+      <p>Welcome</p> 
+  </div>
+
+  <div class="wrapper">
+      <ion-card class="form-wrapper">
+          <ion-card-content>
+              <ion-item>
+                  <ion-icon name="person"></ion-icon>
+                  <ion-input type="text" placeholder="Username"></ion-input>
+              </ion-item>
+              <ion-item>
+                  <ion-icon name="lock-closed"></ion-icon>
+                  <ion-input labelPlacement="stacked" type="password" placeholder="Password"></ion-input>
+              </ion-item>
+              <ion-button color="success" [routerLink]="['/dashboard']" expand="block">Log In</ion-button>
+          </ion-card-content>
+      </ion-card>
+  </div>
+</ion-content>
