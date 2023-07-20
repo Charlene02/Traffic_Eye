@@ -2,7 +2,7 @@
   <ion-toolbar>
     <ion-title>Violation Form</ion-title>
     <ion-buttons slot="start">
-      <ion-back-button default-href="#" routerLink="/dashboard"></ion-back-button>
+      <ion-back-button default-href="#" routerLink="/violation"></ion-back-button>
     </ion-buttons>
   </ion-toolbar>
   </ion-header>
@@ -26,16 +26,16 @@
         <ion-input type="text" placeholder="License Number"></ion-input>
       </ion-item>
       <ion-item>
-        <ion-input label="Plate Number" labelPlacement="floating" placeholder="Enter text"></ion-input>
+        <ion-input type="text" placeholder="Plate Number"></ion-input>
       </ion-item>
       <ion-item>
-        <ion-input label="Type of Vehicle" labelPlacement="floating" placeholder="Enter text"></ion-input>
+        <ion-input type="text" placeholder="Type of Vehicle"></ion-input>
       </ion-item>
       <ion-item>
-        <ion-input label="Date of Violation" labelPlacement="floating" placeholder="Enter text"></ion-input>
+        <ion-input type="text" placeholder="Date of Violation"></ion-input>
       </ion-item>
       <ion-item>
-        <ion-input label="Place of Violation" labelPlacement="floating" placeholder="Enter text"></ion-input>
+        <ion-input type="text" placeholder="Place of Violation"></ion-input>
       </ion-item>
       <ion-item>
         <ion-select label="Type of Violation" label-placement="stacked">
@@ -49,12 +49,8 @@
         </ion-select>
       </ion-item>
       <ion-item>
-        <ion-input label="Amount" labelPlacement="floating" placeholder="Enter text"></ion-input>
+        <ion-input type="text" placeholder="Amount"></ion-input>
       </ion-item>
-        <ion-button expand="block">Save</ion-button>
+        <ion-button expand="block" color="success" >Save</ion-button>
     </ion-list>
   </ion-content>
-
-  
-      
-   

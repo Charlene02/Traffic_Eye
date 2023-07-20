@@ -7,33 +7,98 @@
   </ion-toolbar>
   </ion-header>
 
-  <ion-content [fullscreen]="true">
-    <div class="ion-padding">
-      <ion-card>
-        <ion-card-header>
-          Bar Chart
-        </ion-card-header>
-        <ion-card-content>
-          <canvas #barCanvas style="position: relative; height:20vh; width:40vw"></canvas>
-        </ion-card-content>
-      </ion-card>
+  <ion-content color="light">
+    <ion-list [inset]="true">
+      <ion-list-header>
+        <ion-label>List of Records</ion-label>
+        <ion-button></ion-button>
+      </ion-list-header>
+
+  <ion-item-group>
+    <ion-item-divider>
+      <ion-label>A</ion-label>
+    </ion-item-divider>
   
-      <ion-card>
-        <ion-card-header>
-          Doughnut Chart
-        </ion-card-header>
-        <ion-card-content>
-          <canvas #doughnutCanvas style="position: relative; height:20vh; width:40vw"></canvas>
-        </ion-card-content>
-      </ion-card>
-   
-      <ion-card>
-        <ion-card-header>
-          Line Chart
-        </ion-card-header>
-        <ion-card-content>
-          <canvas #lineCanvas style="position: relative; height:20vh; width:40vw"></canvas>
-        </ion-card-content>
-      </ion-card>
-    </div>
-  </ion-content>
+    <ion-item>
+      <ion-label>Arlo Dela Cruz</ion-label>
+    </ion-item>
+    <ion-item>
+      <ion-label>Andrew Mendoza</ion-label>
+    </ion-item>
+    <ion-item>
+      <ion-label>Arthur King</ion-label>
+    </ion-item>
+    <ion-item>
+      <ion-label>Arman Lopez</ion-label>
+    </ion-item>
+    <ion-item>
+      <ion-label>Adrian De Chavez</ion-label>
+    </ion-item>
+    <ion-item lines="none">
+      <ion-label>Axel Pena</ion-label>
+    </ion-item>
+  </ion-item-group>
+  
+  <ion-item-group>
+    <ion-item-divider>
+      <ion-label>B</ion-label>
+    </ion-item-divider>
+  
+    <ion-item>
+      <ion-label>Brandon Cruz</ion-label>
+    </ion-item>
+    <ion-item>
+      <ion-label>Belarus Cruz</ion-label>
+    </ion-item>
+    <ion-item>
+      <ion-label>Bruno Mars</ion-label>
+    </ion-item>
+    <ion-item lines="none">
+      <ion-label>Brayden Chua</ion-label>
+    </ion-item>
+  </ion-item-group>
+
+  <ion-item-group>
+    <ion-item-divider>
+      <ion-label>C</ion-label>
+    </ion-item-divider>
+  
+    <ion-item>
+      <ion-label>Connor Grey</ion-label>
+    </ion-item>
+    <ion-item>
+      <ion-label>Chris Ong</ion-label>
+    </ion-item>
+    <ion-item>
+      <ion-label>Cyrus Smith</ion-label>
+    </ion-item>
+    <ion-item>
+      <ion-label>Carson Legazpi</ion-label>
+    </ion-item>
+    <ion-item lines="none">
+      <ion-label>Carter Jones</ion-label>
+    </ion-item>
+  </ion-item-group>
+
+  <ion-item-group>
+    <ion-item-divider>
+      <ion-label>D</ion-label>
+    </ion-item-divider>
+
+    <ion-item>
+      <ion-label>David Lewis</ion-label>
+    </ion-item>
+    <ion-item>
+      <ion-label>Dante Green</ion-label>
+    </ion-item>
+    <ion-item>
+      <ion-label>Dawson Galway</ion-label>
+    </ion-item>
+    <ion-item lines="none">
+      <ion-label>Daxton Louth</ion-label>
+    </ion-item>
+  </ion-item-group>
+
+</ion-list>
+<ion-infinite-scroll-content></ion-infinite-scroll-content>
+</ion-content>

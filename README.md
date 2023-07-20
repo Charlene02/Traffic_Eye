@@ -1,1 +1,3 @@
-Hii
+TRAFFIC EYE: Mobile Application for Monitoring and Reporting Traffic Violations
+
+Traffic Eye is a Mobile Application for Monitoring and Reporting Traffic Violations it provides dashboard an overview and other essential tools for managing traffic violations efficiently.It designed specifically for traffic enforcers, the features would be tailored to meet their needs for efficient monitoring,reporting and management of traffic violations.
