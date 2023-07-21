@@ -11,5 +11,7 @@ export class CameraPage implements OnInit {
   constructor(public photoService: PhotoService) { }
   ngOnInit() {
   }
-
+  addPhotoToGallery() {
+    this.photoService.addNewToGallery();
+  }
 }

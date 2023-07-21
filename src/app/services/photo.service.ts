@@ -8,9 +8,13 @@ import { Preferences } from '@capacitor/preferences';
   providedIn: 'root'
 })
 export class PhotoService {
-  addNewToGallery() {
-    throw new Error('Method not implemented.');
+  public async addNewToGallery() {
+    // Take a photo
+    const capturedPhoto = await Camera.getPhoto({
+      resultType: CameraResultType.Uri,
+      source: CameraSource.Camera,
+      quality: 100
+    });
   }
-
   constructor() { }
 }
